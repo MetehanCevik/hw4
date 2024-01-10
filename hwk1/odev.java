@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class odev {
     public static void main(String[] args) {
- 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
@@ -26,7 +25,13 @@ public class odev {
         }
 
 
-   public static void printNumbersBetween(int firstNumber, int secondNumber) {
+
+
+
+
+
+
+public static void printNumbersBetween(int firstNumber, int secondNumber) {
     if (firstNumber > secondNumber) {
         int temp = firstNumber;
         firstNumber = secondNumber;
@@ -41,17 +46,20 @@ public class odev {
         }
     }
 }
- 
-
-
-
-
-
-
-
-
-
-
+public static void printNumbersBetween(int firstNumber, int secondNumber) {
+    if (firstNumber > secondNumber) {
+        int temp = firstNumber;
+        firstNumber = secondNumber;
+        secondNumber = temp;
     }
+
+    System.out.println("Even numbers between " + firstNumber + " and " + secondNumber + " (excluding those numbers):");
+
+    for (int i = firstNumber + 1; i < secondNumber; i++) {
+        if (i % 2 == 0) { // Check for even numbers
+            System.out.println(i);
+        }
+    }
+}
 
 }
