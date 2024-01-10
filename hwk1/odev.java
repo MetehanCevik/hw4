@@ -30,7 +30,10 @@ public class odev {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature-3
 public static void printNumbersBetween(int firstNumber, int secondNumber) {
     if (firstNumber > secondNumber) {
         int temp = firstNumber;
@@ -38,12 +41,23 @@ public static void printNumbersBetween(int firstNumber, int secondNumber) {
         secondNumber = temp;
     }
 
+<<<<<<< HEAD
     System.out.println("Odd numbers between " + firstNumber + " and " + secondNumber + " (excluding those numbers):");
 
     for (int i = firstNumber + 1; i < secondNumber; i++) {
         if (i % 2 != 0) { // Check for odd numbers
             System.out.println(i);
         }
+=======
+    System.out.println("Even numbers between " + firstNumber + " and " + secondNumber + " (excluding those numbers):");
+
+    for (int i = firstNumber + 1; i < secondNumber; i++) {
+        if (i % 2 == 0) { // Check for even numbers
+            System.out.println(i);
+        }
+    }
+}
+>>>>>>> feature-3
     }
 }
 public static void printNumbersBetween(int firstNumber, int secondNumber) {
