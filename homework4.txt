@@ -1,0 +1,11 @@
+1)What are your git config commands?
+2) What files or directories are in your local .git directory?3) Using markdown, how would you put a clickable link to your README.md to the web page of The Department of Software Engineering of Işık University 
+(https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisa yar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi ).
+3) Using markdown, how would you put a clickable link to your README.md to the web page of The Department of Software Engineering of Işık University 
+(https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisa yar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi ).
+4) What rules are in your .gitignore?
+5) What are all the commits you’ve made on the feature-1 branch? What files (and sub-directories, if any) are listed in your hmk1 directory on the feature-1 branch. What files (and sub-directories if any) are listed in your hmk1 
+directory on the main branch.
+6) What are all the commits you’ve made on the feature-2 branch?
+7) What are the differences between main and the other three branches? Hint: use git diff.
+hwk4
