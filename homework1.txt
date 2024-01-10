@@ -1,0 +1,24 @@
+1)
+git config --global user.email "metehaneko@gmail.com"
+git config --global user.name "Metehan,"
+
+
+2)The following command is used to list files and directories in the local .git directory:
+ls -A .git
+
+3)A clickable link was created in Markdown using the following syntax:
+[Department of Software Engineering - Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisa yar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+4)To check the rules in .gitignore we used the command "cat .gitignore":
+
+5)We used the following script to retrieve the commit history and files in the hmk1 directory on both branches.
+git log feature-1
+git ls-tree --name-only -r feature-1:hmk1
+git ls-tree --name-only -r main:hmk1
+
+6)We used the "git log feature-2" command to get the commit history on the feature-2 branch.
+
+7)We used the following commands to see the differences between the master branch and other branches.
+git diff main feature-1
+git diff main feature-2
+git diff main feature-3# hw4
